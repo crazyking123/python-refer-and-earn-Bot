@@ -6,16 +6,16 @@ import telebot
 ##TOKEN DETAILS
 TOKEN = "TRON"
 
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-PAYMENT_CHANNEL = "@NeedBotMaker" #add payment channel here including the '@' sign
-OWNER_ID = 1107159694 #write owner's user id here.. get it from @MissRose_Bot by /id
-CHANNELS = ["@NeedBotMaker"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
+BOT_TOKEN = os.environ["7106457456:AAFF0bUPYPpyKbvyNiHXiae4L_0UUNXuGGE"]
+PAYMENT_CHANNEL = "@crazypayments" #add payment channel here including the '@' sign
+OWNER_ID = 2023327451 #write owner's user id here.. get it from @MissRose_Bot by /id
+CHANNELS = ["@crazypayments"] #add channels to be checked here in the format - ["Channel 1", "Channel 2"] 
               #you can add as many channels here and also add the '@' sign before channel username
 Daily_bonus = 0.001 #Put daily bonus amount here!
 Mini_Withdraw = 0.5  #remove 0 and add the minimum withdraw u want to set
 Per_Refer = 0.0001 #add per refer bonus here
 
-bot = telebot.TeleBot(BOT_TOKEN)
+bot = telebot.TeleBot(7106457456:AAFF0bUPYPpyKbvyNiHXiae4L_0UUNXuGGE)
 
 def check(id):
     for i in CHANNELS:
